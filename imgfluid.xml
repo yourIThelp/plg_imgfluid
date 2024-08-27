@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" version="5.0" method="upgrade">
+    <name>PLG_CONTENT_IMGFLUID</name>
+    <author>Your IT Help</author>
+    <creationDate>2024-08-27</creationDate>
+    <version>1.0.1</version>
+    <description>Adds the img-fluid class to all img tags. <a href="https://www.halison.net" target="_blank">halison.net</a> and <a href="https://www.yourithelp.com.br" target="_blank">yourithelp.com.br</a> for more projects.</description>
+    <namespace path="src">Joomla\Plugin\Content\imgfluid</namespace>
+    <files>
+        <filename plugin="imgfluid">imgfluid.php</filename>
+        <filename plugin="imgfluid">imgfluid.xml</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_content_imgfluid.ini</language>
+        <language tag="pt-BR">language/pt-BR/pt-BR.plg_content_imgfluid.ini</language>
+    </languages>
+    <install>
+        <message>PLG_CONTENT_IMGFLUID_INSTALL_SUCCESS</message>
+    </install>
+    <uninstall>
+        <message>PLG_CONTENT_IMGFLUID_UNINSTALL_SUCCESS</message>
+    </uninstall>
+</extension>
